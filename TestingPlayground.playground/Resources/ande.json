@@ -1,0 +1,126 @@
+{
+  "title": "ANDE",
+  "width": 149,
+  "height": 210.6,
+  "leftMargin": 5.5,
+  "topMargin": 3.5,
+  "rightMargin": 5.5,
+  "bottomMargin": 6,
+  "elements": [
+    {
+      "key": "nis",
+      "label": "NIS",
+      "regex": "\\bNIS: \\b\\d+",
+      "vertices": [
+        [
+          54,
+          14
+        ],
+        [
+          85,
+          14
+        ],
+        [
+          85,
+          19
+        ],
+        [
+          54,
+          19
+        ]
+      ]
+    },
+    {
+      "key": "barcode",
+      "label": "Código de Barra",
+      "regex": null,
+      "vertices": [
+        [
+          48,
+          174.5
+        ],
+        [
+          83,
+          174.5
+        ],
+        [
+          83,
+          178
+        ],
+        [
+          48,
+          178
+        ]
+      ]
+    },
+    {
+      "key": "current_reading",
+      "label": "Lectura Actual",
+      "regex": "^\\d+$",
+      "vertices": [
+        [
+          7,
+          62
+        ],
+        [
+          19,
+          62
+        ],
+        [
+          19,
+          65
+        ],
+        [
+          7,
+          65
+        ]
+      ]
+    },
+    {
+      "key": "previous_reading",
+      "label": "Lectura Anterior",
+      "regex": "^\\d+$",
+      "vertices": [
+        [
+          21,
+          62
+        ],
+        [
+          33,
+          62
+        ],
+        [
+          33,
+          65
+        ],
+        [
+          21,
+          65
+        ]
+      ]
+    },
+    {
+      "key": "kwh_consumption",
+      "label": "Consumo KWh",
+      "regex": "^\\d+$",
+      "vertices": [
+        [
+          49,
+          62
+        ],
+        [
+          60,
+          62
+        ],
+        [
+          60,
+          65
+        ],
+        [
+          49,
+          65
+        ]
+      ]
+    }
+  ]
+}
